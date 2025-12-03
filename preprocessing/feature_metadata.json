@@ -1,0 +1,71 @@
+{
+  "exp1": {
+    "train_shape": [
+      14396,
+      16
+    ],
+    "test_shape": [
+      3600,
+      15
+    ],
+    "features": [
+      "Popularity",
+      "danceability",
+      "energy",
+      "key",
+      "loudness",
+      "mode",
+      "speechiness",
+      "acousticness",
+      "instrumentalness",
+      "liveness",
+      "valence",
+      "tempo",
+      "duration_ms",
+      "time_signature"
+    ]
+  },
+  "exp2": {
+    "train_shape": [
+      14396,
+      33
+    ],
+    "test_shape": [
+      3600,
+      32
+    ],
+    "features": [
+      "Popularity",
+      "danceability",
+      "energy",
+      "key",
+      "loudness",
+      "mode",
+      "speechiness",
+      "acousticness",
+      "instrumentalness",
+      "liveness",
+      "valence",
+      "tempo",
+      "duration_ms",
+      "time_signature",
+      "artist_track_count",
+      "artist_mean_pop",
+      "track_count",
+      "duration_min",
+      "tempo_log",
+      "popularity_log",
+      "key_sin",
+      "key_cos",
+      "energy_loudness",
+      "energy_acoustic_ratio",
+      "dance_energy",
+      "valence_energy",
+      "instr_acoustic",
+      "Artist Name_te",
+      "cluster_id",
+      "pc1",
+      "pc2"
+    ]
+  }
+}
